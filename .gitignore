@@ -1,0 +1,22 @@
+# Flutter / Dart
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/build/
+**/android/.gradle/
+**/android/local.properties
+**/ios/Pods/
+**/ios/.symlinks/
+**/*.g.dart
+
+# Daily app build artifacts (large binaries; APK is published to GitHub Releases instead,
+# AAB is rebuildable from source — neither needs to live in the repo)
+apps/**/app/build/
+apps/**/*.aab
+apps/**/*.apk
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
