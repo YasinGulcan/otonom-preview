@@ -18,6 +18,20 @@ Detaylı mimari: `docs/ARCHITECTURE.md`. Tam plan geçmişi: bu repoyu kuran pla
 5. **Kapsam disiplini.** MVP en fazla 3-5 ekran (basit oyunlarda 1 ekran + oyun döngüsü).
    Kapsam taşma riski varsa özellik kısılır, oturum uzatılmaz.
 6. **QA salt-okunur.** İş Analisti (qa-analyst) bulduğu sorunu kendi düzeltmez, sadece raporlar.
+7. **"Yerel pazar boşluğu" iddiası her zaman iki kez doğrulanır.** Trend Scout sadece top-25
+   chart verisine bakarak "boşluk var" diyemez — hedefli bir arama yapmak zorunda. Takım Lideri
+   de bunu kullanıcıya sunmadan önce bağımsız olarak tekrar kontrol eder. Gerçek rakip
+   bulunursa dürüstçe "(c) rekabetçi niş" olarak düzeltilir, "boşluk" diye sunulmaz. (Geçmişte
+   bu doğrulama atlandığı için kullanıcı yanlış bilgiyle yanlış yere heyecanlandı — bir daha
+   olmayacak.)
+8. **Tahmin/puanlama mekanikli oyunlar için kumar-politikası güvenliği.** Bir konsept maç/olay
+   tahmini, puanlama, sıralama gibi bahis-benzeri bir mekanik içeriyorsa:
+   - Uygulama içinde her zaman görünür bir "Bu bir OYUNdur, gerçek para kullanılmaz/kazanılmaz"
+     uyarısı bulunmalı (tek bir alt sekmede gömülü değil, ana ekranda kalıcı/görünür olmalı).
+   - "Oran", "bahis", "kupon", "iddaa" gibi kelimeler ve İddaa'nın kendi terimleri ("KG Var/Yok",
+     "Alt/Üst" gibi) kullanılmaz — aynı fikir kendi sade dilimizle ifade edilir.
+   - Puanlama/zorluk verisi (favori/underdog gibi) yalnızca **herkese açık spor verisinden**
+     (lig puan durumu/sıralaması gibi) türetilir; bahis/iddaa sitelerinden veri çekilmez.
 
 ## Ajan Rolleri
 

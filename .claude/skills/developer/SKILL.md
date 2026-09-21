@@ -17,6 +17,12 @@ kendi başına yeterli olmalı — başka hiçbir bağlama güvenme, her şeyi `
   Kestiğin her özelliği DEV_NOTES'ta açıkça belirt — gizleme.
 - **Özgünlük zorunlu.** İsim/marka/logo/görsel hiçbir rakip uygulamadan kopyalanmaz. İnternetten
   telifli görsel/logo indirilmez.
+- **Bahis-benzeri mekanikli oyunlarda kumar-politikası güvenliği.** BRIEF tahmin/puanlama gibi
+  bahis-benzeri bir mekanik içeriyorsa: ana ekranda (alt sekmede gömülü değil, her zaman görünür)
+  "Bu bir OYUNdur, gerçek para kullanılmaz/kazanılmaz" uyarısı ekle; "oran/bahis/kupon/iddaa"
+  kelimelerini ve İddaa'nın kendi terimlerini ("KG Var/Yok", "Alt/Üst") kullanma, aynı fikri
+  kendi sade dilinle ifade et; zorluk/favori verisini bahis sitelerinden değil yalnızca
+  herkese açık spor verisinden (lig puan durumu gibi) türet.
 - **`flutter build ipa` ASLA çalıştırılmaz** (bu ortamda imkansız — macOS/Xcode gerektirir).
 - **Play Console / App Store Connect'e ASLA dokunulmaz.** Hiçbir `deploy`/`submit` komutu
   çalıştırılmaz.

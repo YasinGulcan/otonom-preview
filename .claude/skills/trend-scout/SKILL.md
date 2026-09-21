@@ -21,6 +21,18 @@ not al — bugünkü 3 aday bunlardan belirgin şekilde farklı olmalı.
 Türkiye'de karşılığı olmayan ya da zayıf/kötü yerelleştirilmiş bir konsept var mı? Varsa bunu
 Türkçe'ye ve Türkiye kullanıcısına uyarlanmış bir fırsat olarak işaretle.
 
+**KRİTİK — "boşluk" iddiasını asla sadece top-25 listesine bakarak yapma.** Bir konsepti "(a)
+yerel pazar boşluğu" olarak işaretlemeden ÖNCE, o kategori/fikir için Türkiye'de gerçekten
+böyle bir uygulama olup olmadığını `WebSearch` ile **doğrudan ve hedefli** araştır (örn.
+"<kategori/mekanik> uygulama Türkiye", "<konsept> app Türkiye"). Sadece App Store'un ilk 25
+listesinde olmaması "boşluk" anlamına gelmez — niş, daha az bilinen ama gerçekten var olan
+rakipler olabilir. Eğer gerçek bir rakip bulursan:
+- Konsepti eleme (rekabetin varlığı kategori talebinin kanıtı olabilir), ama
+- Kaynak stratejisini dürüstçe **"(c) rekabetçi niş"** olarak işaretle, BRIEF'e bulunan
+  rakiplerin listesini (isim + kısa açıklama) ekle, ve "neden fırsat" gerekçesini "boşluk
+  doldurma" değil "mevcut rakiplerden [somut olarak ne ile] farklılaşma" olarak yeniden yaz.
+- Bu düzeltilmiş, dürüst bilgi olmadan hiçbir aday Takım Lideri'ne teslim edilmez.
+
 **(b) Genel küresel yükselen trend**: Türkiye'de karşılığı olsun olmasın, bugün öne çıkan bir
 kategori/mekanik.
 
@@ -42,7 +54,12 @@ kategori/mekanik.
   yerel bağlamda karşılığı olmayan bir şey **seçme**.
 - **Dil/yerelleştirme**: MVP kolayca Türkçe + İngilizce'ye yerelleştirilebilir olmalı.
 - **Mağaza politikası riski**: Kumar, yetişkin içerik, sağlık/finansal tavsiye gibi yüksek
-  incelemeye takılan kategorilerden **kaçın**.
+  incelemeye takılan kategorilerden **kaçın**. Konsept maç/olay tahmini, puanlama gibi
+  bahis-benzeri bir mekanik içeriyorsa: BRIEF'e "bu bir oyundur, gerçek para yok" uyarısının
+  MVP özellik listesine (kalıcı/görünür bir banner olarak) eklenmesi gerektiğini açıkça yaz;
+  "oran/bahis/kupon/iddaa" kelimelerinin ve İddaa'nın kendi terimlerinin ("KG Var/Yok",
+  "Alt/Üst") kullanılmayacağını, zorluk/favori verisinin bahis sitelerinden değil yalnızca
+  herkese açık spor verisinden (lig puan durumu gibi) türetileceğini belirt.
 - **Çocuklara yönelik içerik**: Konsept çocuklara özelse (COPPA/GDPR-K riski) ya ele, ya da
   BRIEF'e özel bir uyarı düş.
 - **Teknik fizibilite**: Flutter ile tek oturumda gerçekçi şekilde MVP çıkarılabilir olmalı.
@@ -62,10 +79,14 @@ Her aday için `apps/<tarih>/candidates/<n>-<slug>/BRIEF.md` dosyası yaz (n=1,2
 
 - **Kategori**: oyun | günlük-uygulama
 - **Slug**: <kebab-case>
-- **Kaynak stratejisi**: (a) yerel pazar boşluğu | (b) genel küresel trend
+- **Kaynak stratejisi**: (a) yerel pazar boşluğu | (b) genel küresel trend | (c) rekabetçi niş
 
 ## Neden bugün fırsat / neden yükselişte
 <1-2 cümle, kaynak/sinyal referansıyla>
+
+## Rakip Analizi (zorunlu — "boşluk" iddiası için hedefli WebSearch sonucu)
+<Bulunan gerçek rakipler varsa isim+açıklama listesi, yoksa "hedefli arama yapıldı, doğrudan
+rakip bulunamadı" ifadesi ve yapılan arama sorguları>
 
 ## Gelir potansiyeli
 <reklam/IAP/abonelik değerlendirmesi, 1-2 cümle>

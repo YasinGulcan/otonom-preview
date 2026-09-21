@@ -34,6 +34,21 @@ fırsat değeri taşımıyor), `state/run-log.md`'ye `NO-CANDIDATE` satırı ekl
 Aday BRIEF'lerini `apps/<tarih>/candidates/<n>-<slug>/BRIEF.md` olarak diskte tut, Trend
 Scout'un önerdiği log satırlarını `state/trend-history.md`'ye ekle.
 
+## Adım 1.5 — İkinci filtre: "boşluk" iddiasını bağımsız doğrula (ZORUNLU, atlanamaz)
+
+**Trend Scout'un kendi araştırmasına güvenme.** Kullanıcıya sunmadan önce, "(a) yerel pazar
+boşluğu" olarak işaretlenmiş HER adayı sen de bağımsız olarak `WebSearch` ile kontrol et (o
+kategori/konsept için Türkiye'de gerçekten böyle bir uygulama var mı — hedefli arama, sadece
+chart verisine güvenme). Bu, tek bir kaynağın (Trend Scout) hatasının kullanıcıya yanlış bir
+"boşluk var" izlenimi olarak ulaşmasını önlemek için var — geçmişte bu hata oldu ve kullanıcıyı
+gereksiz yere umutlandırdı, bir daha olmamalı.
+
+- Gerçek bir rakip bulursan: adayın kaynak stratejisini BRIEF'te **"(c) rekabetçi niş"** olarak
+  düzelt, bulduğun rakipleri (isim + kısa açıklama) BRIEF'in Rakip Analizi bölümüne ekle/güncelle,
+  "neden fırsat" gerekçesini "boşluk" dilinden "mevcut rakiplerden farklılaşma" diline çevir.
+- Bu doğrulama olmadan hiçbir "(a) yerel pazar boşluğu" etiketi Adım 2'deki seçim ekranına
+  aynen taşınmaz — kullanıcı her zaman doğrulanmış, dürüst bilgiyle karşılaşmalı.
+
 ## Adım 2 — Seçim (kullanıcıya sor, süresiz bekle)
 
 `PushNotification` ile kısa bir bildirim gönder (örn. "3 uygulama fikri hazır, seçimini
